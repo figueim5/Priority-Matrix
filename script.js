@@ -40,6 +40,10 @@ const translations = {
     low_data: "Low - PI Point creation or update",
     header_title: "Priority Matrix Tool",
     calculate: "Calculate Priority",
+    critical_option: "1 Critical",
+    high_option: "2 High",
+    medium_option: "3 Medium",
+    low_option:"4 Low",
   },
   pt: {
     language: "Selecione o idioma:",
@@ -82,6 +86,10 @@ const translations = {
     low_data: "Baixo - Criação ou atualização de ponto PI",
     header_title: "Ferramenta de Matriz de Prioridade",
     calculate: "Calcular Prioridade",
+    critical_option: "1 Crítica",
+    high_option: "2 Alta",
+    medium_option: "3 Média",
+    low_option:"4 Baixa",
   },
 };
 
@@ -94,6 +102,9 @@ function changeLanguage() {
   document.querySelectorAll(".card > h2")[0].textContent = translations[lang].impact;
   document.querySelectorAll(".card > h2")[1].textContent = translations[lang].urgency;
   document.options("button[onclick='calculatePriority()']").textContent = translations[lang].calculate;
+  document.options("div[class='priority-cell priority-1']").textContent = translations[lang].critical_option;
+
+
 
   // Update labels for Impact
   document.querySelector("label[for='impact-business']").textContent = translations[lang].business;
