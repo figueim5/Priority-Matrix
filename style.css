@@ -12,7 +12,25 @@
 * {
   box-sizing: border-box;
 }
+.header {
+  display: flex;
+  align-items: left;
+  padding: 10px 0;
+}
 
+.logo {
+  height: 50px;
+  width: auto;
+  margin-right: 12px;
+  align-items: left;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text);
+  text-align: CENTER;
+}
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -22,17 +40,20 @@ body {
 }
 
 header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
+  align-items: left;
 }
 
 .logo {
   max-width: 120px;
   margin-bottom: 10px;
+  align-items: left;
 }
 
 h1 {
   margin: 0;
+  align-items: left;
 }
 
 .language-selector {
