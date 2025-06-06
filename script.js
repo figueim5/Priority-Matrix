@@ -93,7 +93,7 @@ function changeLanguage() {
   document.querySelector("h1").textContent = translations[lang].header_title;
   document.querySelectorAll(".card > h2")[0].textContent = translations[lang].impact;
   document.querySelectorAll(".card > h2")[1].textContent = translations[lang].urgency;
-   document.querySelector("button[onclick='calculatePriority()']").textContent = translations[lang].calculate;
+  document.querySelector("button[onclick='calculatePriority()']").textContent = translations[lang].calculate;
 
   // Update labels for Impact
   document.querySelector("label[for='impact-business']").textContent = translations[lang].business;
