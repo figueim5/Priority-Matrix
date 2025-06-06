@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Priority Matrix Tool</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo" class="logo" />
+    <h1>Priority Matrix Tool</h1>
+  </header>
+
+  <main>
+    <!-- Aqui entra o formulário e o gráfico -->
+    <div id="form-container">[...formulario...]</div>
+    <button onclick="calculatePriority()">Calculate Priority</button>
+    <p id="result"></p>
+    <canvas id="priorityChart" width="400" height="200"></canvas>
+    <div id="priority-matrix">[...caixas de prioridade...]</div>
+  </main>
+
+  <footer>
+    <p>© 2025 Priority Matrix Tool</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
