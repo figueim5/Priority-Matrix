@@ -40,10 +40,7 @@ const translations = {
     low_data: "Low - PI Point creation or update",
     header_title: "Priority Matrix Tool",
     calculate: "Calculate Priority",
-    critical_option: "1 Critical",
-    high_option: "2 High",
-    medium_option: "3 Medium",
-    low_option:"4 Low",
+
   },
   pt: {
     language: "Selecione o idioma:",
@@ -86,10 +83,7 @@ const translations = {
     low_data: "Baixo - Criação ou atualização de ponto PI",
     header_title: "Ferramenta de Matriz de Prioridade",
     calculate: "Calcular Prioridade",
-    critical_option: "1 Crítica",
-    high_option: "2 Alta",
-    medium_option: "3 Média",
-    low_option:"4 Baixa",
+    
   },
 };
 
@@ -165,10 +159,6 @@ function changeLanguage() {
   urgencyData.options[3].textContent = translations[lang].low_data;
 
   
-//  document.getElementById("priority-1").textContent = translations[lang].critical_option;
-//  document.getElementById("priority-2").textContent = translations[lang].high_option;
- // document.getElementById("priority-3").textContent = translations[lang].medium_option;
-//  document.getElementById("priority-4").textContent = translations[lang].low_option;
 }
 
 window.onload = function () {
