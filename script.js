@@ -34,6 +34,7 @@ function calculatePriority() {
   const labels = ["Critical", "High", "Medium", "Low"];
   document.getElementById("result").textContent = `Priority: ${highest} (${labels[highest - 1]})`;
 
+  // Reset highlights
   document.querySelectorAll('.priority-cell').forEach(el => el.classList.remove('highlight'));
   document.getElementById(`priority-${highest}`).classList.add('highlight');
 }
