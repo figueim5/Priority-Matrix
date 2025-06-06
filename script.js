@@ -39,6 +39,7 @@ const translations = {
     medium_data: "Medium - PI Vision display issue",
     low_data: "Low - PI Point creation or update",
     header_title: "Priority Matrix Tool",
+    calculate: "Calculate Priority",
   },
   pt: {
     language: "Selecione o idioma:",
@@ -80,6 +81,7 @@ const translations = {
     medium_data: "Médio - Problema de exibição do PI Vision",
     low_data: "Baixo - Criação ou atualização de ponto PI",
     header_title: "Ferramenta de Matriz de Prioridade",
+    calculate: "Calcular Prioridade",
   },
 };
 
@@ -91,6 +93,7 @@ function changeLanguage() {
   document.querySelector("h1").textContent = translations[lang].header_title;
   document.querySelectorAll(".card > h2")[0].textContent = translations[lang].impact;
   document.querySelectorAll(".card > h2")[1].textContent = translations[lang].urgency;
+   document.querySelector("button[onclick='calculatePriority()']").textContent = translations[lang].calculate;
 
   // Update labels for Impact
   document.querySelector("label[for='impact-business']").textContent = translations[lang].business;
