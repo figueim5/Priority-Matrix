@@ -102,9 +102,7 @@ function changeLanguage() {
   document.querySelectorAll(".card > h2")[0].textContent = translations[lang].impact;
   document.querySelectorAll(".card > h2")[1].textContent = translations[lang].urgency;
   document.options("button[onclick='calculatePriority()']").textContent = translations[lang].calculate;
-  document.querySelectorAll("[id='priority-1']").textContent = translations[lang].critical_option;
-
-
+ 
 
   // Update labels for Impact
   document.querySelector("label[for='impact-business']").textContent = translations[lang].business;
@@ -165,6 +163,12 @@ function changeLanguage() {
   urgencyData.options[1].textContent = translations[lang].high_data;
   urgencyData.options[2].textContent = translations[lang].medium_data;
   urgencyData.options[3].textContent = translations[lang].low_data;
+
+  
+  document.getElementById("priority-1").textContent = translations[lang].critical_option;
+  document.getElementById("priority-2").textContent = translations[lang].high_option;
+  document.getElementById("priority-3").textContent = translations[lang].medium_option;
+  document.getElementById("priority-4").textContent = translations[lang].low_option;
 }
 
 window.onload = function () {
