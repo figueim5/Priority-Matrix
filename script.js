@@ -165,10 +165,10 @@ function changeLanguage() {
   urgencyData.options[3].textContent = translations[lang].low_data;
 
   
-  document.getElementById("priority-1").textContent = translations[lang].critical_option;
-  document.getElementById("priority-2").textContent = translations[lang].high_option;
-  document.getElementById("priority-3").textContent = translations[lang].medium_option;
-  document.getElementById("priority-4").textContent = translations[lang].low_option;
+//  document.getElementById("priority-1").textContent = translations[lang].critical_option;
+//  document.getElementById("priority-2").textContent = translations[lang].high_option;
+ // document.getElementById("priority-3").textContent = translations[lang].medium_option;
+//  document.getElementById("priority-4").textContent = translations[lang].low_option;
 }
 
 window.onload = function () {
