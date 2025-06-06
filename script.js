@@ -102,7 +102,7 @@ function changeLanguage() {
   document.querySelectorAll(".card > h2")[0].textContent = translations[lang].impact;
   document.querySelectorAll(".card > h2")[1].textContent = translations[lang].urgency;
   document.options("button[onclick='calculatePriority()']").textContent = translations[lang].calculate;
-  document.querySelectorAll("div[class='priority-cell priority-1' id='priority-1']").textContent = translations[lang].critical_option;
+  document.querySelectorAll("[id='priority-1']").textContent = translations[lang].critical_option;
 
 
 
