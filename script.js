@@ -1,4 +1,5 @@
 const translations = {
+  
   en: {
     language: "Select language:",
     impact: "Impact",
