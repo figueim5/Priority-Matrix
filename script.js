@@ -40,7 +40,7 @@ const translations = {
     medium_data: "Medium - PI Vision display issue",
     low_data: "Low - PI Point creation or update",
     header_title: "Priority Matrix Tool",
-    calculate: "Calculate Priority",
+    calculate: "Calculate Priority"
 
   },
   pt: {
@@ -83,7 +83,7 @@ const translations = {
     medium_data: "Médio - Problema de exibição do PI Vision",
     low_data: "Baixo - Criação ou atualização de ponto PI",
     header_title: "Ferramenta de Matriz de Prioridade",
-    calculate: "Calcular Prioridade",
+    calculate: "Calcular Prioridade"
     
   },
 };
